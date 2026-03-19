@@ -7,6 +7,7 @@ export default defineConfig({
       input: {
         "download-button": resolve("download-button/index.html"),
         "loading-grid": resolve("loading-grid/index.html"),
+        "send-button": resolve("send-button/index.html"),
       },
     },
   },
