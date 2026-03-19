@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Metadatos -->
+    <meta
+      name="description"
+      content="Responsive login component with floating labels, visual validation, and advanced CSS animations."
+    />
+    <meta name="keywords" content="form, login, interface, animation, glow" />
+    <meta name="author" content="Jesus Hernandez" />
+    <meta name="copyright" content="jh3764900@gmail.com" />
+    <meta name="robots" content="follow, index" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Login Interface" />
+    <meta
+      property="og:description"
+      content="Responsive login component with floating labels, visual validation, and advanced CSS animations."
+    />
+    <meta property="og:url" content="https://jh-ui-animations.vercel.app/login-interface" />
+    <meta property="og:type" content="website" />
+    <meta property="twitter:card" content="summary" />
+
+    <title>Login Interface</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script src="script.js" type="module" defer></script>
+  </head>
+  <body>
+    <!-- Formulario animado -->
+    <div class="container">
+      <div class="login__section">
+        <!-- Sección del formulario -->
+        <h1 class="login__title">Login</h1>
+        <form class="login__form">
+          <label class="form__label label--email" for="input-email">
+            <span class="label__input">Email</span>
+            <input type="email" class="input__email" id="input-email" required />
+          </label>
+          <label class="form__label label--password" for="input-password">
+            <span class="label__input">Password</span>
+            <input type="password" class="input__password" id="input-password" required />
+            <button class="material-symbols-outlined visibility__icon" type="button">Visibility</button>
+          </label>
+          <a href="#" class="form__forgot">Forgot your password?</a>
+          <button type="submit" class="submit">Login</button>
+          <a href="#" class="form__register">Sign up</a>
+        </form>
+      </div>
+      <div class="blinkin"></div>
+    </div>
+  </body>
+</html>
