@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inicio de Grid Morpher */
+
+body .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+}
+
+.container .cell {
+  width: calc(min(100dvw, 100dvh) / 3 / 4);
+  aspect-ratio: 1/1;
+}
+
+.div__animation {
+  width: 0;
+  height: 0;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.div--first {
+  background-color: #82ffffc7;
+}
+
+.div--second {
+  background-color: #56d1f7dd;
+}
+
+/* Fin de Grid Morpher */

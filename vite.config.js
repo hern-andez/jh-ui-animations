@@ -6,6 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         "download-button": resolve("download-button/index.html"),
+        "loading-grid": resolve("loading-grid/index.html"),
       },
     },
   },
