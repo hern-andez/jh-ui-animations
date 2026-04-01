@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Download Button",
+    "description": "Button with progressive download animation",
+    "id": "download-button",
+    "url": "https://jh-ui-animations.vercel.app/download-button"
+  },
+  {
+    "name": "Loading Grid",
+    "description": "Loading animation based on a dynamic grid",
+    "id": "loading-grid",
+    "url": "https://jh-ui-animations.vercel.app/loading-grid"
+  },
+  {
+    "name": "Login Interface",
+    "description": "Responsive login component with floating labels",
+    "id": "login-interface",
+    "url": "https://jh-ui-animations.vercel.app/login-interface"
+  },
+  {
+    "name": "Navbar Icons",
+    "description": "Icon animation that reacts to the cursor",
+    "id": "navbar-icons",
+    "url": "https://jh-ui-animations.vercel.app/navbar-icons"
+  },
+  {
+    "name": "Neon Buttons",
+    "description": "Animated neon effect that simulates light",
+    "id": "neon-button",
+    "url": "https://jh-ui-animations.vercel.app/neon-button"
+  },
+  {
+    "name": "Send Button",
+    "description": "Loading animation and a visual confirmation.",
+    "id": "send-button",
+    "url": "https://jh-ui-animations.vercel.app/send-button"
+  }
+]

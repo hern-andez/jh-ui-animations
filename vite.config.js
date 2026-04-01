@@ -5,6 +5,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
+        main: resolve("index.html"),
+
         "download-button": resolve("download-button/index.html"),
         "loading-grid": resolve("loading-grid/index.html"),
         "login-interface": resolve("login-interface/index.html"),
